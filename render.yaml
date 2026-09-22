@@ -7,9 +7,9 @@ services:
     plan: standard
     dockerfilePath: ./Dockerfile
     autoDeploy: false
-    envVars:
-     - key: DATABASE_URL
-  sync: false
+   envVars:
+  - key: DATABASE_URL
+    sync: false
       # pick the region closest to your database
       # For example, us-west-2 for the Oregon region
       - key: AWS_REGION
